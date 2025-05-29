@@ -11,22 +11,14 @@ setup(
     },
     include_package_data=True,
     install_requires=[
-        'flake8',
-        'librosa',
-        'torchlibrosa',
         'h5py',
-        'eva-decord',  # for video models on mac devices
-        'sentencepiece',
-        'flax',
         'transformers',
-        'cvxopt',
         'einops',
         'accelerate',
         'matplotlib',
         'statsmodels',
         'requests',
         'seaborn==0.12.2',
-        'opencv_python_headless',
         'pandas',
         'numpy',
         'Pillow',
@@ -41,10 +33,6 @@ setup(
         'visualpriors == 0.3.5',
         'timm == 0.4.12',
         'torchextractor == 0.3.0',
-        'torchvision',
-        'rsatoolbox == 0.0.3',
-        'pytorchvideo @ git+https://github.com/facebookresearch/pytorchvideo.git@eb04d1b', # NOTE: Change when new release published
-        'clip @ git+https://github.com/openai/CLIP.git',
         'mit_semseg @ git+https://github.com/CSAILVision/semantic-segmentation-pytorch.git@master'
     ],
         extras_require={

@@ -3,8 +3,6 @@ import torchextractor as tx
 from PIL import Image
 import os
 import re
-import cv2
-import librosa
 import torch
 import torch.nn as nn
 import warnings

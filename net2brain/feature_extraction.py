@@ -10,10 +10,7 @@ from .architectures.toolbox_models import Toolbox
 from .architectures.torchhub_models import Pytorch
 from .architectures.cornet_models import Cornet
 from .architectures.unet_models import Unet
-from .architectures.yolo_models import Yolo
-from .architectures.pyvideo_models import Pyvideo
 from .architectures.huggingface_llm import Huggingface
-from .architectures.audio_models import Audio
 from datetime import datetime
 import torchextractor as tx
 import warnings
